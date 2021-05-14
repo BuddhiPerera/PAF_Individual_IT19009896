@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/Funding/src/main/webapp/addFund.html" value="file://$PROJECT_DIR$/Funding/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/Funding/src/main/webapp/viewFund.html" value="file://$PROJECT_DIR$/Funding/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/Product/src/main/webapp/addItems.jsp" value="file://$PROJECT_DIR$/Product/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/Product/src/main/webapp/allProducts.jsp" value="file://$PROJECT_DIR$/Product/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/Project/src/main/webapp/addProject.html" value="file://$PROJECT_DIR$/Project/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/USER/src/main/webapp/adminDashboard.html" value="file://$PROJECT_DIR$/USER/src/main/webapp" />
+        <entry key="file://$PROJECT_DIR$/USER/src/main/webapp/researcherProfile.html" value="file://$PROJECT_DIR$/USER/src/main/webapp" />
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GadgetBadget</title>
+
+    <link rel="stylesheet" href="build/css/style.css">
+</head>
+<body class="nav-md" style="cursor: pointer">
+<!-- Sign up form -->
+<h2> GadgetBadget Researcher Portal</h2>
+<div class="container" id="container">
+    <div class="form-container sign-up-container">
+        <form method="post">
+            <h1>Create Account</h1>
+            <span>Researcher Registration</span>
+            <input required type="text" placeholder="First Name" name="fName" id="fName"/>
+            <input required type="text" placeholder="Last Name" name="lName" id="lName"/>
+            <input required type="email" placeholder="Email" name="email" id="email"/>
+            <input required type="text" placeholder="Contact No" name="contactNo" id="contact"/>
+            <input required type="text" placeholder="Address" name="address" id="address"/>
+            <input required type="text" placeholder="Zip-Code" name="zipCode" id="zipcode"/>
+            <input required type="text" placeholder="Rate" name="rate" id="rate"/>
+            <input required type="password" placeholder="Password" name="password" id="pass"/>
+            <button type="button" id="btnsubmit">Sign Up</button>
+        </form>
+    </div>
+    <div class="form-container sign-in-container">
+        <form action="onlineSignIn" method="post">
+            <h1>Sign in</h1>
+            <span>enter your credentials below</span>
+            <input type="username" placeholder="Username" name="userName"/>
+            <input type="password" placeholder="Password" name="password"/>
+            <button>Sign In</button>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please login from here</p>
+                <button class="ghost" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1>Hello There!</h1>
+                <p>Create your account today and start your journey with us!</p>
+                <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery -->
+<script src="vendors/jquery/dist/jquery.min.js"></script>
+<!-- controller -->
+<script src="js/manage-researchers-controller.js"></script>
+
+
+<script src="vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Datatables -->
+<script src="vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+
+<script src="vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+
+<script src="vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<!-- FastClick -->
+<script src="vendors/fastclick/lib/fastclick.js"></script>
+<!-- NProgress -->
+<script src="vendors/nprogress/nprogress.js"></script>
+
+<!-- Custom Theme Scripts -->
+<script src="build/js/custom.min.js"></script>
+
+<script src="build/js/main.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
